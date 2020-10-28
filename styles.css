@@ -1,10 +1,59 @@
-body {
-    background-color: yellow;
-}
-
 header {
     text-align: center;
+    margin: 10px;
 }
+
+p{
+    padding-top: 30px;
+    text-align: justify
+}
+
+div .main{
+    display: inline-block;
+    top:20px;
+    width: 32.5%;
+}
+
+section{
+    background-color: darkgray;
+    margin-top:20px;
+    margin: 0 5px;      
+}
+
+section h2{
+    float: right;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: 5px
+}
+#beef{
+    margin: 0;
+}
+
+.size{
+    margin: 5px;
+}
+
+.border{
+    border: 2px solid black;
+}
+
+.chicken{
+    float: right;
+    background-color: pink;
+}
+
+.beef{
+    float: right;
+    background-color: red;
+}
+
+.sushi{
+    float: right;
+    background-color: gold;
+}
+
 
 /*However, you MAY use the simple responsive framework we developed in Lecture 24 as a starting point for this assignment*/
 
