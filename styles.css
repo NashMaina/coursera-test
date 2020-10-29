@@ -53,16 +53,14 @@ section h2{
     background-color: gold;
 }
 
-/*desktop view (992px and above)  each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, each section should become wider or narrower.*/
-
+/*desktop view (992px and above).*/
 @media (min-width: 992px) and (max-width: 1500px){
     div .main {
         display: inline-block;
         width: 32.5%;}
 }
 
-/*tablet view (between 768px and 991px, inclusively) the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the second row and take up the entire row by itself*/
-
+/*tablet view (between 768px and 991px, inclusively)*/
 @media (min-width: 768px) and (max-width: 991px){
     div .same {
         display: inline-block;
@@ -78,4 +76,4 @@ section h2{
         width: 100%;}
 }
 
-/*(OPTIONAL) Also, set the font size of the heading and section title to be 75% larger.*/
+/*Also, set the font size of the heading title to be 75% larger.*/
